@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="clickCounter_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="left" text="Click Counter App" textAlignment="center" id="ZKP-lP-RLL">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <label width="136" alignment="left" text="0" textAlignment="center" id="gSB-7m-M3M">
+                            <color key="textColor" red="0.0" green="0.85098046064376831" blue="0.80000007152557373" alpha="1" colorSpace="deviceRGB"/>
+                        </label>
+                        <button width="1" height="103" alignment="left" backgroundImage="finger.png" id="HYR-4W-JSk">
+                            <connections>
+                                <action selector="buttonPressed" destination="AgC-eL-Hgc" id="pHs-01-d51"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="counterLabel" destination="gSB-7m-M3M" id="e9Z-LE-cIC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="440" y="429"/>
+        </scene>
+    </scenes>
+</document>

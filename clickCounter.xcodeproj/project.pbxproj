@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A7B27C21B5009A60065CDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B27C11B5009A60065CDDE /* AppDelegate.swift */; };
+		5A7B27C51B5009A60065CDDE /* clickCounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B27C31B5009A60065CDDE /* clickCounter.xcdatamodeld */; };
+		5A7B27C71B5009A60065CDDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B27C61B5009A60065CDDE /* ViewController.swift */; };
+		5A7B27CA1B5009A60065CDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B27C81B5009A60065CDDE /* Main.storyboard */; };
+		5A7B27CC1B5009A60065CDDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B27CB1B5009A60065CDDE /* Images.xcassets */; };
+		5A7B27CF1B5009A60065CDDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B27CD1B5009A60065CDDE /* LaunchScreen.xib */; };
+		5A7B27DB1B5009A60065CDDE /* clickCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B27DA1B5009A60065CDDE /* clickCounterTests.swift */; };
+		5A7B27ED1B5009C30065CDDE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B27EC1B5009C30065CDDE /* InterfaceController.swift */; };
+		5A7B27EF1B5009C30065CDDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B27EE1B5009C30065CDDE /* Images.xcassets */; };
+		5A7B27F31B5009C30065CDDE /* clickCounter WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B27F21B5009C30065CDDE /* clickCounter WatchKit App.app */; };
+		5A7B27FB1B5009C30065CDDE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B27F91B5009C30065CDDE /* Interface.storyboard */; };
+		5A7B27FD1B5009C30065CDDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B27FC1B5009C30065CDDE /* Images.xcassets */; };
+		5A7B28001B5009C30065CDDE /* clickCounter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5A7B27E81B5009C30065CDDE /* clickCounter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A7B28091B500A720065CDDE /* finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B28081B500A720065CDDE /* finger.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A7B27D51B5009A60065CDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7B27B41B5009A60065CDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7B27BB1B5009A60065CDDE;
+			remoteInfo = clickCounter;
+		};
+		5A7B27F41B5009C30065CDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7B27B41B5009A60065CDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7B27F11B5009C30065CDDE;
+			remoteInfo = "clickCounter WatchKit App";
+		};
+		5A7B27FE1B5009C30065CDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7B27B41B5009A60065CDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7B27E71B5009C30065CDDE;
+			remoteInfo = "clickCounter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A7B28071B5009C30065CDDE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A7B28001B5009C30065CDDE /* clickCounter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A7B27BC1B5009A60065CDDE /* clickCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clickCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7B27C01B5009A60065CDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7B27C11B5009A60065CDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A7B27C41B5009A60065CDDE /* clickCounter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clickCounter.xcdatamodel; sourceTree = "<group>"; };
+		5A7B27C61B5009A60065CDDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A7B27C91B5009A60065CDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A7B27CB1B5009A60065CDDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A7B27CE1B5009A60065CDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A7B27D41B5009A60065CDDE /* clickCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clickCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7B27D91B5009A60065CDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7B27DA1B5009A60065CDDE /* clickCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clickCounterTests.swift; sourceTree = "<group>"; };
+		5A7B27E81B5009C30065CDDE /* clickCounter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "clickCounter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7B27EB1B5009C30065CDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7B27EC1B5009C30065CDDE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5A7B27EE1B5009C30065CDDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A7B27F21B5009C30065CDDE /* clickCounter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clickCounter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7B27F81B5009C30065CDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7B27FA1B5009C30065CDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5A7B27FC1B5009C30065CDDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A7B28081B500A720065CDDE /* finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A7B27B91B5009A60065CDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7B27D11B5009A60065CDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7B27E51B5009C30065CDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A7B27B31B5009A60065CDDE = {
+			isa = PBXGroup;
+			children = (
+				5A7B27BE1B5009A60065CDDE /* clickCounter */,
+				5A7B27D71B5009A60065CDDE /* clickCounterTests */,
+				5A7B27E91B5009C30065CDDE /* clickCounter WatchKit Extension */,
+				5A7B27F61B5009C30065CDDE /* clickCounter WatchKit App */,
+				5A7B27BD1B5009A60065CDDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A7B27BD1B5009A60065CDDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B27BC1B5009A60065CDDE /* clickCounter.app */,
+				5A7B27D41B5009A60065CDDE /* clickCounterTests.xctest */,
+				5A7B27E81B5009C30065CDDE /* clickCounter WatchKit Extension.appex */,
+				5A7B27F21B5009C30065CDDE /* clickCounter WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A7B27BE1B5009A60065CDDE /* clickCounter */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B27C11B5009A60065CDDE /* AppDelegate.swift */,
+				5A7B27C61B5009A60065CDDE /* ViewController.swift */,
+				5A7B27C81B5009A60065CDDE /* Main.storyboard */,
+				5A7B27CB1B5009A60065CDDE /* Images.xcassets */,
+				5A7B27CD1B5009A60065CDDE /* LaunchScreen.xib */,
+				5A7B27C31B5009A60065CDDE /* clickCounter.xcdatamodeld */,
+				5A7B27BF1B5009A60065CDDE /* Supporting Files */,
+			);
+			path = clickCounter;
+			sourceTree = "<group>";
+		};
+		5A7B27BF1B5009A60065CDDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B27C01B5009A60065CDDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A7B27D71B5009A60065CDDE /* clickCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B27DA1B5009A60065CDDE /* clickCounterTests.swift */,
+				5A7B27D81B5009A60065CDDE /* Supporting Files */,
+			);
+			path = clickCounterTests;
+			sourceTree = "<group>";
+		};
+		5A7B27D81B5009A60065CDDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B27D91B5009A60065CDDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A7B27E91B5009C30065CDDE /* clickCounter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B27EC1B5009C30065CDDE /* InterfaceController.swift */,
+				5A7B27EE1B5009C30065CDDE /* Images.xcassets */,
+				5A7B27EA1B5009C30065CDDE /* Supporting Files */,
+			);
+			path = "clickCounter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5A7B27EA1B5009C30065CDDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B27EB1B5009C30065CDDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A7B27F61B5009C30065CDDE /* clickCounter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B27F91B5009C30065CDDE /* Interface.storyboard */,
+				5A7B27FC1B5009C30065CDDE /* Images.xcassets */,
+				5A7B27F71B5009C30065CDDE /* Supporting Files */,
+			);
+			path = "clickCounter WatchKit App";
+			sourceTree = "<group>";
+		};
+		5A7B27F71B5009C30065CDDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B28081B500A720065CDDE /* finger.png */,
+				5A7B27F81B5009C30065CDDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A7B27BB1B5009A60065CDDE /* clickCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7B27DE1B5009A60065CDDE /* Build configuration list for PBXNativeTarget "clickCounter" */;
+			buildPhases = (
+				5A7B27B81B5009A60065CDDE /* Sources */,
+				5A7B27B91B5009A60065CDDE /* Frameworks */,
+				5A7B27BA1B5009A60065CDDE /* Resources */,
+				5A7B28071B5009C30065CDDE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7B27FF1B5009C30065CDDE /* PBXTargetDependency */,
+			);
+			name = clickCounter;
+			productName = clickCounter;
+			productReference = 5A7B27BC1B5009A60065CDDE /* clickCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A7B27D31B5009A60065CDDE /* clickCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7B27E11B5009A60065CDDE /* Build configuration list for PBXNativeTarget "clickCounterTests" */;
+			buildPhases = (
+				5A7B27D01B5009A60065CDDE /* Sources */,
+				5A7B27D11B5009A60065CDDE /* Frameworks */,
+				5A7B27D21B5009A60065CDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7B27D61B5009A60065CDDE /* PBXTargetDependency */,
+			);
+			name = clickCounterTests;
+			productName = clickCounterTests;
+			productReference = 5A7B27D41B5009A60065CDDE /* clickCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A7B27E71B5009C30065CDDE /* clickCounter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7B28041B5009C30065CDDE /* Build configuration list for PBXNativeTarget "clickCounter WatchKit Extension" */;
+			buildPhases = (
+				5A7B27E41B5009C30065CDDE /* Sources */,
+				5A7B27E51B5009C30065CDDE /* Frameworks */,
+				5A7B27E61B5009C30065CDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7B27F51B5009C30065CDDE /* PBXTargetDependency */,
+			);
+			name = "clickCounter WatchKit Extension";
+			productName = "clickCounter WatchKit Extension";
+			productReference = 5A7B27E81B5009C30065CDDE /* clickCounter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5A7B27F11B5009C30065CDDE /* clickCounter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7B28011B5009C30065CDDE /* Build configuration list for PBXNativeTarget "clickCounter WatchKit App" */;
+			buildPhases = (
+				5A7B27F01B5009C30065CDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "clickCounter WatchKit App";
+			productName = "clickCounter WatchKit App";
+			productReference = 5A7B27F21B5009C30065CDDE /* clickCounter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A7B27B41B5009A60065CDDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Magdalena Pamuła";
+				TargetAttributes = {
+					5A7B27BB1B5009A60065CDDE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5A7B27D31B5009A60065CDDE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5A7B27BB1B5009A60065CDDE;
+					};
+					5A7B27E71B5009C30065CDDE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5A7B27F11B5009C30065CDDE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 5A7B27B71B5009A60065CDDE /* Build configuration list for PBXProject "clickCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A7B27B31B5009A60065CDDE;
+			productRefGroup = 5A7B27BD1B5009A60065CDDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A7B27BB1B5009A60065CDDE /* clickCounter */,
+				5A7B27D31B5009A60065CDDE /* clickCounterTests */,
+				5A7B27E71B5009C30065CDDE /* clickCounter WatchKit Extension */,
+				5A7B27F11B5009C30065CDDE /* clickCounter WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A7B27BA1B5009A60065CDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B27CA1B5009A60065CDDE /* Main.storyboard in Resources */,
+				5A7B27CF1B5009A60065CDDE /* LaunchScreen.xib in Resources */,
+				5A7B27CC1B5009A60065CDDE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7B27D21B5009A60065CDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7B27E61B5009C30065CDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B27F31B5009C30065CDDE /* clickCounter WatchKit App.app in Resources */,
+				5A7B27EF1B5009C30065CDDE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7B27F01B5009C30065CDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B27FB1B5009C30065CDDE /* Interface.storyboard in Resources */,
+				5A7B28091B500A720065CDDE /* finger.png in Resources */,
+				5A7B27FD1B5009C30065CDDE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A7B27B81B5009A60065CDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B27C71B5009A60065CDDE /* ViewController.swift in Sources */,
+				5A7B27C21B5009A60065CDDE /* AppDelegate.swift in Sources */,
+				5A7B27C51B5009A60065CDDE /* clickCounter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7B27D01B5009A60065CDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B27DB1B5009A60065CDDE /* clickCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7B27E41B5009C30065CDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B27ED1B5009C30065CDDE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A7B27D61B5009A60065CDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7B27BB1B5009A60065CDDE /* clickCounter */;
+			targetProxy = 5A7B27D51B5009A60065CDDE /* PBXContainerItemProxy */;
+		};
+		5A7B27F51B5009C30065CDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7B27F11B5009C30065CDDE /* clickCounter WatchKit App */;
+			targetProxy = 5A7B27F41B5009C30065CDDE /* PBXContainerItemProxy */;
+		};
+		5A7B27FF1B5009C30065CDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7B27E71B5009C30065CDDE /* clickCounter WatchKit Extension */;
+			targetProxy = 5A7B27FE1B5009C30065CDDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A7B27C81B5009A60065CDDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7B27C91B5009A60065CDDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A7B27CD1B5009A60065CDDE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7B27CE1B5009A60065CDDE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5A7B27F91B5009C30065CDDE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7B27FA1B5009C30065CDDE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A7B27DC1B5009A60065CDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A7B27DD1B5009A60065CDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A7B27DF1B5009A60065CDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clickCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A7B27E01B5009A60065CDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clickCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A7B27E21B5009A60065CDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = clickCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickCounter.app/clickCounter";
+			};
+			name = Debug;
+		};
+		5A7B27E31B5009A60065CDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = clickCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickCounter.app/clickCounter";
+			};
+			name = Release;
+		};
+		5A7B28021B5009C30065CDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = clickCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "clickCounter WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5A7B28031B5009C30065CDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = clickCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "clickCounter WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5A7B28051B5009C30065CDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "clickCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A7B28061B5009C30065CDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "clickCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A7B27B71B5009A60065CDDE /* Build configuration list for PBXProject "clickCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7B27DC1B5009A60065CDDE /* Debug */,
+				5A7B27DD1B5009A60065CDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7B27DE1B5009A60065CDDE /* Build configuration list for PBXNativeTarget "clickCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7B27DF1B5009A60065CDDE /* Debug */,
+				5A7B27E01B5009A60065CDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A7B27E11B5009A60065CDDE /* Build configuration list for PBXNativeTarget "clickCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7B27E21B5009A60065CDDE /* Debug */,
+				5A7B27E31B5009A60065CDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A7B28011B5009C30065CDDE /* Build configuration list for PBXNativeTarget "clickCounter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7B28021B5009C30065CDDE /* Debug */,
+				5A7B28031B5009C30065CDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A7B28041B5009C30065CDDE /* Build configuration list for PBXNativeTarget "clickCounter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7B28051B5009C30065CDDE /* Debug */,
+				5A7B28061B5009C30065CDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A7B27C31B5009A60065CDDE /* clickCounter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A7B27C41B5009A60065CDDE /* clickCounter.xcdatamodel */,
+			);
+			currentVersion = 5A7B27C41B5009A60065CDDE /* clickCounter.xcdatamodel */;
+			path = clickCounter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A7B27B41B5009A60065CDDE /* Project object */;
+}
